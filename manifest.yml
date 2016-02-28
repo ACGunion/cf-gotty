@@ -6,4 +6,4 @@ applications:
   host: gotty
   path: .
   buildpack: binary_buildpack
-  command: $HOME/gotty -p "$PORT" -w -c "user:pwsrocks" /bin/bash
+  command: $HOME/gotty/gotty -p "$PORT" -w -c "user:pwsrocks" /bin/bash
